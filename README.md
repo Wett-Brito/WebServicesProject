@@ -71,22 +71,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/33105000?v=4" width="100px;" alt="Foto do Guilherme Melo"/><br>
-        <sub>
-          <b>Guilherme Melo</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/67209629?v=4" width="100px;" alt="Foto da Patricia Tami"/><br>
-        <sub>
-          <b>Patricia Tami</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
         <img src="https://avatars.githubusercontent.com/u/39777075?v=4" width="100px;" alt="Foto do Wellington Brito"/><br>
         <sub>
           <b>Wellington Brito</b>
@@ -95,17 +79,17 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/25730747?v=4" width="100px;" alt="Foto do Gabriel Tadachi"/><br>
+        <img src="https://avatars.githubusercontent.com/u/33105000?v=4" width="100px;" alt="Foto do Guilherme Melo"/><br>
         <sub>
-          <b>Gabriel Tadachi</b>
+          <b>Guilherme Melo</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/7660575?v=4" width="100px;" alt="Foto do Gustaco Ceccon"/><br>
+        <img src="https://avatars.githubusercontent.com/u/25730747?v=4" width="100px;" alt="Foto do Gabriel Tadachi"/><br>
         <sub>
-          <b>Gustavo Ceccon</b>
+          <b>Gabriel Tadachi</b>
         </sub>
       </a>
     </td>
