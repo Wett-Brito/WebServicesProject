@@ -1,4 +1,4 @@
-# Cartao Aluno
+# ProjetoWebServices - Fiap Notes
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -6,47 +6,54 @@
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<Kotlin / Spring-boot / Mongo-DB / Swagger2>`
+* Você instalou a versão mais recente para back-end de `<Java / Spring-boot / H2 / Swagger2>`
+* Você instalou a versão mais recente para front-end de `<Axios / React / React-router-dom / Vite / Typescript>`
 * Você tem uma máquina `<Windows / Mac>`.
 
-## 🚀 Instalando Cartao Aluno
+## 🚀 Instalando ProjetoWebServices - Fiap Notes
 
-Para instalar o Cartao Aluno, siga estas etapas:
+Para instalar o ProjetoWebServices - Fiap Notes, siga estas etapas:
 
-Windows:
+Front-end:
 
-Após subir um o projeto para uma IDE de sua escolha, execute o comando
-
-```
-.\gradlew clean
-```
-
-Linux:
-
-Após subir um o projeto para uma IDE de sua escolha, execute o comando
+Após subir um o projeto para uma IDE de sua escolha, execute o comando `npm run dev`, para rodar o projeto em ambiente de desenvolvimento.
 
 ```
-./gradlew clean
+npm run dev
 ```
 
-## ☕ Usando Cartao Aluno
+Acesse o caminho `http://localhost:3001/`. A aplicação vai carregar automaticamente.
 
-Para usar Cartao Aluno:
+Back-end:
+
+Após subir um o projeto para uma IDE de sua escolha, rode o projeto pela classe principal `App.java`
+
+Após isso o back-end da aplicação vai estar executando no caminho `http://localhost:8080/`
+
+Também é possivel acessar o banco de dados da aplicação pelo caminho `http://localhost:8080/h2-console/`
+
+## ☕ Usando ProjetoWebServices - Fiap Notes
+
+Para criar uma nova nota é realmente simples, clica no botão "+", escreva um novo nome e marque se o card é imporant ou não. Após isso seu card sera salvo no banco de dados.
+
+Para excluir uma nota voce deve clica no botão de "lixeira". Isso vai remover a sua nota da tela e do banco de dados.
+
+Para editar uma nota, apenas clique no botão de "lapis", um modal vai abrir permitindo voce a mudar o nome e se o card é important, após isso apenas clique em salvar.
+
+Para filtrar apenas pelos cards imporantes, clique no botão de "!". Apenas os cards que são importantes vão aparecer.
+
+Para filtrar por nome, escreva o nome do card que voce quer filtrar. Apenas os cards com esse nome vão aparecer na lista. 
+
+Para usar ProjetoWebServices - Fiap Notes, apenas as requests:
 
 ```
 Para poder consumir todas as requisições criadas nos projetos basta acessar o caminho do Swagger, 
-após o projeto estar rodando. <localhost:8081/swagger-ui.html> e <localhost:8080/swagger-ui.html>
-
-Existem 2 projetos, um para controle do aluno e outra para controle da autorizado de compras e pagamentos.
-
-O serviço de Aluno possui o job com batch para popular inicialmente seu banco de dados não relacional (MongoDB).
-O arquivo lista_alunos.txt no caminho resources/content é necessário para popular e após a primeira execução
-do projeto deve ser alterado o nome do arquivo para não inserir dados repetidos em seu database.
+após o projeto estar rodando. <localhost:8080/swagger-ui.html>
 ```
 
-## 📫 Contribuindo para Cartao Aluno
+## 📫 Contribuindo para ProjetoWebServices - Fiap Notes
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com Cartao Aluno>, siga estas etapas:
+Para contribuir com ProjetoWebServices - Fiap Notes>, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b main`.
