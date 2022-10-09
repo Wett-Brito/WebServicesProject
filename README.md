@@ -14,7 +14,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o ProjetoWebServices - Fiap Notes, siga estas etapas:
 
-Front-end:
+#Front-end:
 
 Após subir um o projeto para uma IDE de sua escolha, execute o comando `npm run dev`, para rodar o projeto em ambiente de desenvolvimento.
 
@@ -24,7 +24,7 @@ npm run dev
 
 Acesse o caminho `http://localhost:3001/`. A aplicação vai carregar automaticamente.
 
-Back-end:
+#Back-end:
 
 Após subir um o projeto para uma IDE de sua escolha, rode o projeto pela classe principal `App.java`
 
